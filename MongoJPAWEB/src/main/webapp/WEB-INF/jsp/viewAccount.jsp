@@ -22,6 +22,7 @@
 			<td>${account.customerId}</td>
 		</tr>
 	</table>
+	<h3 align="center"><a href=${link}>Click here to viewAll Accounts</a></h3>
 	</jstl:if>
 	<jstl:if test="${account == null}">
 			<h2>No Account found!</h2>

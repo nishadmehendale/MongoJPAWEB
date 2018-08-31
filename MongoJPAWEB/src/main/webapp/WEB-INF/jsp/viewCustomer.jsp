@@ -20,6 +20,8 @@
 				<td>${customer.name}</td>
 			</tr>
 		</table>
+		
+		<h3 align="center"><a href=${link}>Click here to viewAll Customers</a></h3>
 	</jstl:if>
 	<jstl:if test="${customer == null}">
 		<h2>No Customer found!</h2>
